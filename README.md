@@ -1,4 +1,4 @@
-# MONUMENT TO DEBRIS // DIGITAL ARCHIVE
+# ROMAN ROOM MONUMENT // DIGITAL ARCHIVE
 
 An interactive 3D digital sculpture and personal manifesto. This project represents the final stage of letting go—transforming a 4-year physical collection of cigarette packs into a data-driven digital monument.
 

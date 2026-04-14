@@ -1,16 +1,75 @@
-# React + Vite
+# MONUMENT TO DEBRIS // DIGITAL ARCHIVE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive 3D digital sculpture and personal manifesto. This project represents the final stage of letting go—transforming a 4-year physical collection of cigarette packs into a data-driven digital monument.
 
-Currently, two official plugins are available:
+> ✝️ **"The cross is a monument. A gravestone. By building it, I am burying my past habit of hoarding and moving forward, traveling light."**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 **[View Interactive Sculpture](https://твой-линк.vercel.app)**
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### / VISUALIZATION
 
-## Expanding the ESLint configuration
+<img src="./preview_cross.gif" width="100%" alt="3D CSS Cross Interaction" style="border-radius: 8px; margin-bottom: 20px;">
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+### / THE MANIFESTO (Concept)
+
+For years, I used physical objects—receipts, trinkets, empty packs—as memory anchors. My collection functioned as a **"Roman Room" (Method of Loci)**, where even the most insignificant piece of trash held a specific, vivid memory. 
+
+In the past year, external catalysts deeply fractured this paradigm:
+1. **Nomadism & Travel:** True comfort requires owning less.
+2. **The Reality of War:** Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
+3. **Rejecting "Deferred Life":** Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
+
+This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. **It is an act of liberation and a manifesto of living strictly in the present moment.**
+
+---
+
+### / TECH & ARCHITECTURE: "DATA AS MEMORY"
+
+This isn't just a 3D model; it's a literal digitization of physical memory. Every single pack from the physical sculpture was audited, counted, and mapped into a JSON architecture (`CROSS_INVENTORY`). 
+
+The application uses procedural generation to rebuild the physical object using code.
+
+| Technology | Implementation Role |
+| :--- | :--- |
+| **React 19** | Core engine and state management. |
+| **Vanilla CSS 3D** | Building the 3D shapes (prisms) purely through DOM manipulation (`transform: rotate3d`), bypassing heavy WebGL libraries for a raw, brutalist web aesthetic. |
+| **Procedural Mapping** | The algorithm fetches objects from the data array (`takePack()`) mimicking the exact physical count and dimensions of the real-world items. |
+| **Custom Camera** | Touch and mouse event listeners built from scratch to handle panning, pitching, and zooming in the 3D space. |
+
+---
+
+### / INTERFACE DETAILS
+
+<table style="border: none; width: 100%;">
+  <tr>
+    <td width="50%" valign="top">
+      <h4 align="center">THE ARCHIVE LIST</h4>
+      <img src="./preview_list.png" width="100%" style="border-radius: 8px;">
+      <p align="center"><i>Digital audit of the physical trash.</i></p>
+    </td>
+    <td width="50%" valign="top">
+      <h4 align="center">FREE-ANGLE EXPLORATION</h4>
+      <img src="./preview_rotate.gif" width="100%" style="border-radius: 8px;">
+      <p align="center"><i>Custom CSS 3D camera controls.</i></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+## / LOCAL DEPLOYMENT
+
+```bash
+# Clone the archive
+git clone [https://github.com/yunglordsimens/monument-to-debris.git](https://github.com/yunglordsimens/monument-to-debris.git)
+cd monument-to-debris
+
+# Install dependencies
+npm install
+
+# Run the digital sculpture
+npm run dev

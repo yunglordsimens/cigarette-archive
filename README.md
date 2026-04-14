@@ -2,9 +2,9 @@
 
 An interactive 3D digital sculpture and personal manifesto. This project represents the final stage of letting go—transforming a 4-year physical collection of cigarette packs into a data-driven digital monument.
 
-> ✝️ **"The cross is a monument. A gravestone. By building it, I am burying my past habit of hoarding and moving forward, traveling light."**
+> ✝️ **"By building it, I am burying my past habit of hoarding and moving forward"**
 
-🔗 **[View Interactive Sculpture](https://твой-линк.vercel.app)**
+🔗 **[View Interactive Sculpture](https://yunglordsimens.github.io/cigarette-archive/)**
 
 ---
 

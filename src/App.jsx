@@ -4,7 +4,7 @@ const LIST_MATERIALS = [
   { name: "Saigon Silver", count: "9", imageSrc: "./public/SaigonSilver.jpeg" },
   { name: "Veo red", count: "1", imageSrc: "./public/VeoRed.jpeg" },
   { name: "Veo pink", count: "1", imageSrc: "./public/VeoPink.jpeg" },
-  { name: "Elysee", count: "2", imageSrc: "./piblic/Elysee" },
+  { name: "Elysee", count: "2", imageSrc: "./piblic/Elysee.jpeg" },
   { name: "Rotmans double cupsule", count: "4", imageSrc: "https://placehold.co/100x150?text=Rothmans" },
   { name: "LD slim", count: "1", imageSrc: "https://placehold.co/100x150?text=LD+Slim" },
   { name: "Terea mint turquoise", count: "13", imageSrc: "https://placehold.co/100x150?text=Terea" },

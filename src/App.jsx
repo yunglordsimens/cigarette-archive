@@ -1,10 +1,10 @@
 import React, { useState, useMemo, useRef, useEffect } from 'react';
 
 const LIST_MATERIALS = [
-  { name: "Saigon", count: "9", imageSrc: "https://placehold.co/100x150?text=Saigon+9" },
-  { name: "Veo red", count: "1", imageSrc: "https://placehold.co/100x150?text=Veo+Red" },
-  { name: "Veo pink", count: "1", imageSrc: "https://placehold.co/100x150?text=Veo+Pink" },
-  { name: "Elysee", count: "2", imageSrc: "https://placehold.co/100x150?text=Elysee" },
+  { name: "Saigon Silver", count: "9", imageSrc: "./public/SaigonSilver.jpeg" },
+  { name: "Veo red", count: "1", imageSrc: "./public/VeoRed.webp" },
+  { name: "Veo pink", count: "1", imageSrc: "./public/VeoPink.avif" },
+  { name: "Elysee", count: "2", imageSrc: "./piblic/Elysee" },
   { name: "Rotmans double cupsule", count: "4", imageSrc: "https://placehold.co/100x150?text=Rothmans" },
   { name: "LD slim", count: "1", imageSrc: "https://placehold.co/100x150?text=LD+Slim" },
   { name: "Terea mint turquoise", count: "13", imageSrc: "https://placehold.co/100x150?text=Terea" },
@@ -152,26 +152,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
   return (
     <div style={{ display: 'flex', width: '100%', flex: 1, overflow: 'hidden' }}>
       <div style={{ width: '50%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
-        <img src="https://placehold.co/800x1200?text=Project+Result" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+        <img src="./" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
       </div>
       <div style={{ width: '25%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
         <iframe src="https://www.instagram.com/p/C-EXAMPLE/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
       </div>
       <div style={{ width: '25%', height: '100%', padding: '10px', overflowY: 'auto' }}>
         <div style={{ whiteSpace: 'pre-wrap' }}>
-{`# Project Description
+{`### / THE MANIFESTO (Concept)
 
-Here you can insert your markdown text.
+For years, I used physical objects—receipts, trinkets, empty packs—as memory anchors. My collection functioned as a **"Roman Room" (Method of Loci)**, where even the most insignificant piece of trash held a specific, vivid memory. 
 
-This text block takes exactly 1/4 of the screen width and has a scrollbar if the text becomes too long.
+In the past year, external catalysts deeply fractured this paradigm:
+1. **Nomadism & Travel:** True comfort requires owning less.
+2. **The Reality of War:** Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
+3. **Rejecting "Deferred Life":** Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
 
-- Point 1
-- Point 2
-- Point 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-[Insert your full text here]`}
+This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. **It is an act of liberation and a manifesto of living strictly in the present moment.**`}
         </div>
       </div>
     </div>

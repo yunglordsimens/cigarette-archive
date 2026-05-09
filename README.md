@@ -52,7 +52,7 @@ The application uses procedural generation to rebuild the physical object using 
   <tr>
     <td width="50%" valign="top">
       <h4 align="center">THE ARCHIVE LIST</h4>
-      <img src="./preview_list.png" width="100%" style="border-radius: 8px;">
+      <img src="./preview_list.jpg" width="100%" style="border-radius: 8px;">
       <p align="center"><i>Digital audit of the physical trash.</i></p>
     </td>
     <td width="50%" valign="top">

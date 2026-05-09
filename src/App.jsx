@@ -2,8 +2,8 @@ import React, { useState, useMemo, useRef, useEffect } from 'react';
 
 const LIST_MATERIALS = [
   { name: "Saigon Silver", count: "9", imageSrc: "./public/SaigonSilver.jpeg" },
-  { name: "Veo red", count: "1", imageSrc: "./public/VeoRed.webp" },
-  { name: "Veo pink", count: "1", imageSrc: "./public/VeoPink.avif" },
+  { name: "Veo red", count: "1", imageSrc: "./public/VeoRed.jpeg" },
+  { name: "Veo pink", count: "1", imageSrc: "./public/VeoPink.jpeg" },
   { name: "Elysee", count: "2", imageSrc: "./piblic/Elysee" },
   { name: "Rotmans double cupsule", count: "4", imageSrc: "https://placehold.co/100x150?text=Rothmans" },
   { name: "LD slim", count: "1", imageSrc: "https://placehold.co/100x150?text=LD+Slim" },

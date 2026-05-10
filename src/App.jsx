@@ -123,7 +123,7 @@ function AboutView() {
     return (
       <div style={{ display: 'flex', flexDirection: 'column', width: '100%', flex: 1, overflowY: 'auto', gap: '20px', padding: '10px' }}>
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-          <img src="https://placehold.co/800x1200?text=Project+Result" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '50vh', objectFit: 'contain' }} />
+          <img src="/cigarette-archive/images/ProjectResult.PNG" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '50vh', objectFit: 'contain' }} />
         </div>
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
           <iframe src="https://www.instagram.com/p/C-EXAMPLE/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', maxWidth: '400px', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>

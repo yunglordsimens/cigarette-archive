@@ -126,7 +126,7 @@ function AboutView() {
           <img src="/cigarette-archive/images/ProjectResult.PNG" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '50vh', objectFit: 'contain' }} />
         </div>
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-          <iframe src="https://www.instagram.com/p/C-EXAMPLE/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', maxWidth: '400px', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
+          <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', maxWidth: '400px', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
         </div>
         <div style={{ width: '100%', padding: '10px' }}>
           <div style={{ whiteSpace: 'pre-wrap' }}>

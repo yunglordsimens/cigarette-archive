@@ -152,10 +152,10 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
   return (
     <div style={{ display: 'flex', width: '100%', flex: 1, overflow: 'hidden' }}>
       <div style={{ width: '50%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
-        <img src="./" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
+        <img src="./images/ProjectResult.PNG" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
       </div>
       <div style={{ width: '25%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
-        <iframe src="https://www.instagram.com/p/C-EXAMPLE/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
+        <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
       </div>
       <div style={{ width: '25%', height: '100%', padding: '10px', overflowY: 'auto' }}>
         <div style={{ whiteSpace: 'pre-wrap' }}>

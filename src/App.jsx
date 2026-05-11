@@ -126,24 +126,21 @@ function AboutView() {
           <img src="/cigarette-archive/images/ProjectResult.PNG" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '50vh', objectFit: 'contain' }} />
         </div>
         <div style={{ width: '100%', display: 'flex', justifyContent: 'center' }}>
-          <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', maxWidth: '400px', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
+          <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', maxWidth: '400px', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
         </div>
         <div style={{ width: '100%', padding: '10px' }}>
           <div style={{ whiteSpace: 'pre-wrap' }}>
-{`# Project Description
+{`THE MANIFESTO (Concept)
 
-Here you can insert your markdown text.
+For years, I used physical objects—receipts, trinkets, empty packs—as memory anchors. My collection functioned as a **"Roman Room" (Method of Loci)**, where even the most insignificant piece of trash held a specific, vivid memory. 
 
-This text block is now full width on mobile.
+In the past year, external catalysts deeply fractured this paradigm:
+1. Nomadism & Travel: True comfort requires owning less.
+2. The Reality of War: Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
+3. Rejecting "Deferred Life": Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
 
-- Point 1
-- Point 2
-- Point 3
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-
-[Insert your full text here]`}
-          </div>
+This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. It is an act of liberation and a manifesto of living strictly in the present moment.`}
+        </div>
         </div>
       </div>
     );

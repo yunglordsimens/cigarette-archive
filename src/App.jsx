@@ -159,16 +159,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
       </div>
       <div style={{ width: '25%', height: '100%', padding: '10px', overflowY: 'auto' }}>
         <div style={{ whiteSpace: 'pre-wrap' }}>
-{`### / THE MANIFESTO (Concept)
+{`THE MANIFESTO (Concept)
 
 For years, I used physical objects—receipts, trinkets, empty packs—as memory anchors. My collection functioned as a **"Roman Room" (Method of Loci)**, where even the most insignificant piece of trash held a specific, vivid memory. 
 
 In the past year, external catalysts deeply fractured this paradigm:
-1. **Nomadism & Travel:** True comfort requires owning less.
-2. **The Reality of War:** Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
-3. **Rejecting "Deferred Life":** Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
+1. Nomadism & Travel: True comfort requires owning less.
+2. The Reality of War: Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
+3. Rejecting "Deferred Life": Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
 
-This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. **It is an act of liberation and a manifesto of living strictly in the present moment.**`}
+This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. It is an act of liberation and a manifesto of living strictly in the present moment.`}
         </div>
       </div>
     </div>

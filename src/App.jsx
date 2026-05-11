@@ -155,7 +155,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor i
         <img src="./images/ProjectResult.PNG" alt="Project Result" style={{ maxWidth: '100%', maxHeight: '100%', objectFit: 'contain' }} />
       </div>
       <div style={{ width: '25%', height: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center', padding: '10px' }}>
-        <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
+        <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
       </div>
       <div style={{ width: '25%', height: '100%', padding: '10px', overflowY: 'auto' }}>
         <div style={{ whiteSpace: 'pre-wrap' }}>

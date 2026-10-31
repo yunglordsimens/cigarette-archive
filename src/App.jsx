@@ -114,7 +114,7 @@ function ManifestoContent() {
   return (
     <article className="manifesto">
       <h2>The Manifesto</h2>
-      <p>For years, I used physical objects—receipts, trinkets, and empty packs—as anchors for memory. Even an insignificant piece of trash could bring back a vivid moment.</p>
+      <p>For years, I used physical objects such as receipts, trinkets, and empty packs as anchors for memory. Even an insignificant piece of trash could bring back a vivid moment.</p>
       <p>In the past year, a few experiences changed how I think about keeping things:</p>
       <ol>
         <li><strong>Nomadism and travel:</strong> feeling at home can mean owning less.</li>

@@ -110,6 +110,23 @@ function ListView() {
   );
 }
 
+function ManifestoContent() {
+  return (
+    <article className="manifesto">
+      <h2>The Manifesto</h2>
+      <p>For years, I used physical objects—receipts, trinkets, and empty packs—as anchors for memory. Even an insignificant piece of trash could bring back a vivid moment.</p>
+      <p>In the past year, a few experiences changed how I think about keeping things:</p>
+      <ol>
+        <li><strong>Nomadism and travel:</strong> feeling at home can mean owning less.</li>
+        <li><strong>The reality of war:</strong> emergency evacuations made clear that life matters more than possessions.</li>
+        <li><strong>Living now:</strong> saving the best for later can make things lose their meaning. Use them here and now.</li>
+      </ol>
+      <p>The sculpture is a way to let go. The cigarette packs became art, and this digital archive gives the collection a new form without keeping its physical weight.</p>
+      <p>It is an act of release and a reminder to live in the present.</p>
+    </article>
+  );
+}
+
 function AboutView() {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
 
@@ -129,18 +146,7 @@ function AboutView() {
           <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', maxWidth: '400px', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
         </div>
         <div style={{ width: '100%', padding: '10px' }}>
-          <div style={{ whiteSpace: 'pre-wrap' }}>
-{`THE MANIFESTO (Concept)
-
-For years, I used physical objects—receipts, trinkets, empty packs—as memory anchors. My collection functioned as a **"Roman Room" (Method of Loci)**, where even the most insignificant piece of trash held a specific, vivid memory. 
-
-In the past year, external catalysts deeply fractured this paradigm:
-1. Nomadism & Travel: True comfort requires owning less.
-2. The Reality of War: Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
-3. Rejecting "Deferred Life": Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
-
-This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. It is an act of liberation and a manifesto of living strictly in the present moment.`}
-        </div>
+          <ManifestoContent />
         </div>
       </div>
     );
@@ -155,18 +161,7 @@ This sculpture is a therapeutic act of separation. The physical material (cigare
         <iframe src="https://www.instagram.com/p/DYIj4VbCDjF/embed" frameBorder="0" scrolling="no" allowtransparency="true" style={{ width: '100%', aspectRatio: '9/16', border: 'none', background: '#fff' }}></iframe>
       </div>
       <div style={{ width: '25%', height: '100%', padding: '10px', overflowY: 'auto' }}>
-        <div style={{ whiteSpace: 'pre-wrap' }}>
-{`THE MANIFESTO (Concept)
-
-For years, I used physical objects—receipts, trinkets, empty packs—as memory anchors. My collection functioned as a **"Roman Room" (Method of Loci)**, where even the most insignificant piece of trash held a specific, vivid memory. 
-
-In the past year, external catalysts deeply fractured this paradigm:
-1. Nomadism & Travel: True comfort requires owning less.
-2. The Reality of War: Emergency evacuations revealed the true value of belongings. Leaving behind expensive collections proved they were not life-sustaining. Life is more important than boxes.
-3. Rejecting "Deferred Life": Abandoning the Soviet mindset of "saving the best for later." Things must be used here and now, or they lose their meaning.
-
-This sculpture is a therapeutic act of separation. The physical material (cigarette packs) fulfilled its role by becoming art. By digitizing this archive into an interactive WebGL/CSS experience, I release the physical weight. It is an act of liberation and a manifesto of living strictly in the present moment.`}
-        </div>
+        <ManifestoContent />
       </div>
     </div>
   );
